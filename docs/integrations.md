@@ -166,6 +166,12 @@ module.exports = {
 }
 ```
 
+The `format` option controls support for [fallbacks](https://www.typescriptlang.org/docs/handbook/modules/reference.html#fallbacks). Instead of `string` (the default), you can set `array` (Module Resolver v4+) to enable it:
+
+```js
+hq.get('babel', { format: 'array' })
+```
+
 For more info, check the plugin's [docs](https://github.com/tleunen/babel-plugin-module-resolver/blob/master/DOCS.md).
 
 # Frameworks
