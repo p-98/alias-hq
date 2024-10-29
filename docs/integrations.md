@@ -64,6 +64,12 @@ module.exports = {
 }
 ```
 
+The `format` option controls support for [fallbacks](https://www.typescriptlang.org/docs/handbook/modules/reference.html#fallbacks). Instead of `string` (the default), you can set `array` (Webpack v5+) to enable it:
+
+```js
+hq.get('webpack', { format: 'array' })
+```
+
 ## Rollup
 
 #### Basic setup
